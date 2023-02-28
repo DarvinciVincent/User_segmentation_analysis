@@ -2,6 +2,8 @@
 
 rm(list = ls())
 
+install.packages(c('ggplot2', 'dplyr', 'corrplot', 'infotheo', 'scales', 'shinythemes', 'shiny'))
+
 library(ggplot2)
 library(dplyr)
 library(corrplot)
